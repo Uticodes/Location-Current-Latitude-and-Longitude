@@ -14,10 +14,9 @@ implementation "com.google.android.gms:play-services-location:17.0.0"
 Add this dependency in your build.gradle(Module:app) file to make the Google play service available to use the location manager.
 
 ## Permissions
+ Add this permissions in your AndroidManifest file.
  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-
- Add this permissions in your AndroidManifest file
 
 ## Installation
 To run this code, clone this repository and import into android studio
