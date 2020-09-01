@@ -16,6 +16,7 @@ import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -49,6 +50,10 @@ class MainActivity : AppCompatActivity() {
             requestPermissions()
         } else {
             getLastLocation()
+        }
+
+        btnNext.setOnClickListener {
+            startActivity(Intent(this, SecondActivity::class.java))
         }
     }
 
