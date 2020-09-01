@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Map</string>
+    <string name="app_name">Current Lat/Long</string>
     <string name="title_activity_maps">Map</string>
     <string name="latitude_label">Latitude</string>
     <string name="longitude_label">Longitude</string>
